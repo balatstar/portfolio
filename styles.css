@@ -70,12 +70,12 @@ section {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #FFF;
+    color: #fff;
   }
 
   .hero-cta:hover,
   .hero-cta:active {
-    background-color: #FFF;
+    background-color: #fff;
     color: #1a2236;
     border: 1px solid #1a2236;
   }
