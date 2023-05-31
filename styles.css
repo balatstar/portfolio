@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+div, header, main, section {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url(images/image_geometry_1.svg) top left no-repeat;
+  }
+
+  .wrapper {
+    min-width: 375px;
+    width: 100%;
+  }
+
+  .site-header {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hero {
+    padding: 30px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #1A2236;
+  }
+
+  .hero-content {
+    margin: 0 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1A2236;
+  }
+
+  .hero-cta {
+    margin: 20px 0;
+    padding: 12px;
+    border: 1px solid #1A2236;
+    width: 100%;
+    background-color: #1A2236;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .hero-cta:hover, .hero-cta:active {
+    background-color: #FFF;
+    color: #1A2236;
+    border: 1px solid #1A2236;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+}
+
+
