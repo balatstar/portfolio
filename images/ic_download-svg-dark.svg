@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 25" width="26" height="25">
+	<title>ic_download-svg</title>
+	<defs>
+		<image  width="26" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATAQMAAAC0i49FAAAAAXNSR0IB2cksfwAAAAZQTFRFGiI2AAAAaWtDKwAAAAJ0Uk5T/wDltzBKAAAAEklEQVR4nGOw//+fgYHaBBwAANS5Jg74uzfNAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #1a2236 } 
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="6"/>
+	<path id="Layer" class="s0" d="m13.7 14l4.2-4.3 1.4 1.4-6.6 6.7-6.7-6.7 1.4-1.4 4.3 4.3v-14h2z"/>
+</svg>
