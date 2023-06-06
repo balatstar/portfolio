@@ -134,23 +134,20 @@
             </li>
           </ul>
       </section>
-      <section>
-        <div class="contact">
-          <h1>Get Started</h1>
-            <p class="form-paragraph">
-              I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </p>
-            <form action="">
-                <input type="text" id="full-name"  placeholder="Full name" maxlength="30">
-                <input type="text" id="email" placeholder="Email Address">
-                <textarea name="text-box" id="opinion" cols="40" rows="6" maxlength="500" placeholder="Write me something..."></textarea>
-                <div class="form-submit-con">
-                    <input type="submit">
-                </div>
-            </form>
-        </div>
+      <section class="contact">
+        <h1>Get Started</h1>
+        <p class="contact-intro">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+        <form action="https://formspree.io/f/xpzegjzj" method="post" class="contact-form">
+          <label>Your name<input type="text" id="name" name="name" placeholder="Full name" maxlength="30" required></label>
+          <label>Your email<input type="email" id="email" name="email" placeholder="Email Address" required></label>
+          <label>Your message<textarea name="text-box" id="message" name="message" cols="40" rows="6" maxlength="500" placeholder="Enter your message here..." required></textarea></label>
+          <button class="contact-button" type="submit">Start collaboration</button>
+        </form>
        </section>
     </main>
+    <footer>
+
+    </footer>
   </div>  
 </body>
 </html>
