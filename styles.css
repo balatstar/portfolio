@@ -52,6 +52,10 @@ button {
   border: 1px solid #1a2236;
 }
 
+.desktop-only {
+  display: none;
+}
+
 .wrapper {
   min-width: 375px;
   width: 100%;
@@ -341,6 +345,23 @@ footer .footer-socials {
 }
 
 @media (min-width: 768px) {
+
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  h1{
+    font-size: 110px;
+  }
+
   nav {
     display: block;
     width: 100%;
@@ -375,5 +396,41 @@ footer .footer-socials {
 
   .main-nav li:hover {
     text-decoration: underline;
+  }
+
+  .hero {
+    padding: 0;
+    flex-direction: row;
+  }
+  
+  .hero-content {
+    padding: 0 5%;
+    flex: 1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+    background: url(images/image_dots.svg) bottom right no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-content h1 {
+    margin: 0 0 15px 0;
+  }
+
+  .hero-content p {
+    background-color: #fff;
+  }
+  
+  .hero-image {
+    margin-top: 0;
+    flex: 1;
+  }
+  
+  .hero-image img {
+    width: 100%;
   }
 }
