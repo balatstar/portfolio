@@ -633,10 +633,8 @@ footer {
     width: 50%;
   }
 
-  .languages h2,
-  .frameworks h2,
-  .skills h2 {
-    font-weight: 800;
+  .about-list-header {
+    font-weight: 600;
   }
 
   .about-list ul {
