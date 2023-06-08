@@ -605,6 +605,7 @@ footer {
     flex-direction: row-reverse;
     max-width: 1440px;
     margin: 0 auto;
+    padding: 150px 5% 0 5%;
   }
 
   .about-summary,
@@ -628,7 +629,16 @@ footer {
 
   .about-list {
     margin-top: 0;
+    padding-left: 8%;
     width: 50%;
+  }
+
+  .about-list h2 {
+    font-weight: 800;
+  }
+
+  .about-list ul {
+    font-weight: 600;
   }
 
   .about-list-main2 .spacer {
