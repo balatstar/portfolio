@@ -381,12 +381,6 @@ footer {
 
 @media (min-width: 768px) {
 
-  /*.wrapper {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1440px;
-  }*/
-
   .mobile-only {
     display: none;
   }
@@ -399,7 +393,7 @@ footer {
     background-image: none;
   }
 
-  h1{
+  h1 {
     font-size: 110px;
   }
 
@@ -445,7 +439,7 @@ footer {
     padding: 0;
     flex-direction: row;
   }
-  
+
   .hero-content {
     padding: 0 5%;
     flex: 1;
@@ -467,12 +461,12 @@ footer {
   .hero-content p {
     background-color: #fff;
   }
-  
+
   .hero-image {
     margin-top: 0;
     flex: 1;
   }
-  
+
   .hero-image img {
     width: 100%;
   }
@@ -487,7 +481,9 @@ footer {
     gap: 0;
     margin-top: 200px;
     grid-template-columns: 33.5% 22.1% 12.2% 32.3%;
-    /* grid-template-rows: 554px 84px 190px 82px 190px 278px 282px; */
+    /*
+    grid-template-rows: 554px 84px 190px 82px 190px 278px 282px;
+    */
     grid-template-rows: 30% 5% 11% 5% 11% 17% 21%;
   }
 
@@ -504,7 +500,6 @@ footer {
     grid-area: 1/2/2/5;
     overflow: hidden;
   }
-
 
   .project-1 {
     grid-area: 3/1/5/2;
@@ -574,8 +569,8 @@ footer {
     z-index: 999;
   }
 
-  .projects-content-image:hover ~ .projects-content-group,
-  .projects-content-group:hover {
+  .projects-content-group:hover,
+  .projects-content-image:hover ~ .projects-content-group {
     display: block;
   }
 
@@ -592,7 +587,7 @@ footer {
   .projects-content-tags li {
     font-size: 20px;
     margin: 2px 5px;
-    padding: 10px
+    padding: 10px;
   }
 
   .projects-content-button .cta-dark {
@@ -699,5 +694,4 @@ footer {
   .footer-socials {
     max-width: 300px;
   }
-  
 }
