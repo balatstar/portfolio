@@ -633,7 +633,9 @@ footer {
     width: 50%;
   }
 
-  .about-list h2 {
+  .languages h2,
+  .frameworks h2,
+  .skills h2 {
     font-weight: 800;
   }
 
