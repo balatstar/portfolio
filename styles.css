@@ -380,7 +380,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-
   .mobile-only {
     display: none;
   }
@@ -481,9 +480,6 @@ footer {
     gap: 0;
     margin-top: 200px;
     grid-template-columns: 33.5% 22.1% 12.2% 32.3%;
-    /*
-    grid-template-rows: 554px 84px 190px 82px 190px 278px 282px;
-    */
     grid-template-rows: 30% 5% 11% 5% 11% 17% 21%;
   }
 
@@ -551,7 +547,7 @@ footer {
     grid-area: 7/2/8/3;
     background: url(images/image-geometry_4.svg) top right no-repeat;
   }
-  
+
   .proj-title h1 {
     transform: rotate(-90deg);
     background-color: #fff;
