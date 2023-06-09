@@ -426,6 +426,7 @@ footer {
     display: block;
     text-decoration: none;
     color: #1a2236;
+    transition: background-position 0.5s ease-out;
   }
 
   .main-nav a:hover {
