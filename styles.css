@@ -43,6 +43,7 @@ button {
   line-height: 24px;
   text-align: center;
   color: #fff;
+  transition: background-color 0.5s ease-out;
 }
 
 .cta-dark:hover,
