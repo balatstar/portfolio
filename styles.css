@@ -43,6 +43,7 @@ button {
   line-height: 24px;
   text-align: center;
   color: #fff;
+  transition: background-color 0.5s ease-out;
 }
 
 .cta-dark:hover,
@@ -426,6 +427,7 @@ footer {
     display: block;
     text-decoration: none;
     color: #1a2236;
+    transition: background-position 0.5s ease-out;
   }
 
   .main-nav a:hover {
