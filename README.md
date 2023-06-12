@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- No live demo yet. To follow.
+- [Live demo](https://balatstar.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
