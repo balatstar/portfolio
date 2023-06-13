@@ -18,7 +18,8 @@ section {
   padding: 0;
 }
 
-h1 {
+h1,
+h2 {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
@@ -122,7 +123,7 @@ nav {
   grid-template-rows: auto;
 }
 
-.projects-content h1 {
+.projects-content h2 {
   margin: 15px;
   grid-row: 1 / 2;
 }
@@ -146,7 +147,7 @@ nav {
   background-color: #1a2236;
 }
 
-.projects-content-name h2 {
+.projects-content-name h3 {
   margin: 15px;
   font-weight: 300;
   font-size: 20px;
@@ -307,7 +308,7 @@ ul.projects-content-tags {
   padding-top: 100px;
 }
 
-.contact h1 {
+.contact h2 {
   margin: 15px;
 }
 
@@ -393,7 +394,8 @@ footer {
     background-image: none;
   }
 
-  h1 {
+  h1,
+  h2 {
     font-size: 110px;
   }
 
@@ -550,7 +552,7 @@ footer {
     background: url(images/image-geometry_4.svg) top right no-repeat;
   }
 
-  .proj-title h1 {
+  .proj-title h2 {
     transform: rotate(-90deg);
     background-color: #fff;
   }
@@ -572,13 +574,13 @@ footer {
     display: block;
   }
 
-  .projects-content-name h2 {
+  .projects-content-name h3 {
     font-size: 40px;
     font-weight: 700;
     line-height: 100%;
   }
 
-  .project-0 .projects-content-name h2 {
+  .project-0 .projects-content-name h3 {
     font-size: 60px;
   }
 
