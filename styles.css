@@ -89,8 +89,7 @@ button {
 }
 
 nav {
-  /*display: none;*/
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
@@ -99,6 +98,10 @@ nav {
   top: 0;
   right: 0;
   background-color: #fff;
+}
+
+.nav-on {
+  display: flex;
 }
 
 .navtop {
