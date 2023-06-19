@@ -89,7 +89,59 @@ button {
 }
 
 nav {
-  display: none;
+  /*display: none;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  width: 100vw;
+  height: 95vh;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.navtop {
+  height: 115px;
+  padding-right: 20px;
+  padding-top: 25px;
+  background: top left url(images/image_geometry_menu_1.svg) no-repeat;
+  text-align: right;
+}
+
+.navbottom {
+  height: 150px;
+  background: bottom left url(images/image_geometry_menu_2.svg) no-repeat;
+}
+
+.main-nav {
+  flex: calc(100% - 265px);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 0;
+  padding: 30px 25px 0 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  text-align: center;
+}
+
+.main-nav li a {
+  padding: 5px 0;
+  display: block;
+  text-decoration: none;
+  color: #1a2236;
+}
+
+.main-nav a:hover {
+  background: url(images/main-hover.png) bottom center no-repeat;
 }
 
 .hero {
@@ -401,7 +453,10 @@ footer {
 
   nav {
     display: block;
+    position: static;
     width: 100%;
+    height: auto;
+    background: none;
   }
 
   .mobile-nav {
@@ -410,25 +465,16 @@ footer {
 
   .main-nav {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
   }
 
   .main-nav li {
-    margin: 0;
     padding: 0 25px;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
   }
 
   .main-nav li a {
-    padding: 5px 0;
-    display: block;
-    text-decoration: none;
-    color: #1a2236;
     transition: background-position 0.5s ease-out;
   }
 
