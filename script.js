@@ -94,7 +94,7 @@ const postContainer = document.querySelector('.projects-content');
 const postContainer2 = document.querySelector('.projects-modal-test');
 
 const postMethods = () => {
-  cardData.map((postData) => {
+  cardData.forEach((postData) => {
     const postElement = document.createElement('article');
     postElement.id = `${postData.position}`;
     postElement.classList.add('projects-content-item');
