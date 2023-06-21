@@ -150,12 +150,10 @@ const postMethods = () => {
 postMethods();
 
 const modalToggleClose = document.getElementById('modalToggleClose');
-const popout = '';
 
 function modalToggles(popout) {
   const modal = document.getElementById(popout);
   modal.classList.toggle('modal-on');
-  window.scrollTo(0, 0);
 }
 
 modalToggleClose.addEventListener('click', modalToggles);
