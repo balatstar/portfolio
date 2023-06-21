@@ -12,93 +12,93 @@ navToggleClose.addEventListener('click', navToggles);
 
 for (let i = 0; i < navLinks.length; i += 1) {
   navLinks[i].addEventListener('click', navToggles);
-};
+}
 
 const cardData = [
   {
-    title:'Project name goes here',
-    image:'images/Rectangle21.jpg',
-    technologies:['HTML/CSS','Ruby on Rails','Javascript'],
-    position:'project-0',
-    description:`<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    title: 'Project name goes here',
+    image: 'images/Rectangle21.jpg',
+    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    position: 'project-0',
+    description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
     <p>Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>`,
-    live:'https://balatstar.github.io/',
-    source:'https://github.com/balatstar/portfolio',
-    modal:'modal-0',
-    thumbnails:['images/Rectangle21.jpg','images/Rectangle21.jpg','images/Rectangle21.jpg','images/Rectangle21.jpg']
+    live: 'https://balatstar.github.io/',
+    source: 'https://github.com/balatstar/portfolio',
+    modal: 'modal-0',
+    thumbnails: ['images/Rectangle21.jpg', 'images/Rectangle21.jpg', 'images/Rectangle21.jpg', 'images/Rectangle21.jpg'],
   },
   {
-    title:'Project name goes here',
-    image:'images/Rectangle34.png',
-    technologies:['HTML/CSS','Ruby on Rails','Javascript'],
-    position:'project-1',
-    description:`<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    title: 'Project name goes here',
+    image: 'images/Rectangle34.png',
+    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    position: 'project-1',
+    description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
     <p>Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>`,
-    live:'https://balatstar.github.io/',
-    source:'https://github.com/balatstar/portfolio',
-    modal:'modal-1',
-    thumbnails:['images/thumb-Rectangle40.png','images/thumb-Rectangle40.png','images/thumb-Rectangle40.png','images/thumb-Rectangle40.png']
+    live: 'https://balatstar.github.io/',
+    source: 'https://github.com/balatstar/portfolio',
+    modal: 'modal-1',
+    thumbnails: ['images/thumb-Rectangle40.png', 'images/thumb-Rectangle40.png', 'images/thumb-Rectangle40.png', 'images/thumb-Rectangle40.png'],
   },
   {
-    title:'Project name goes here',
-    image:'images/project2.png',
-    technologies:['HTML/CSS','Ruby on Rails','Javascript'],
-    position:'project-2',
-    description:`<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    title: 'Project name goes here',
+    image: 'images/project2.png',
+    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    position: 'project-2',
+    description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
     <p>Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>`,
-    live:'https://balatstar.github.io/',
-    source:'https://github.com/balatstar/portfolio',
-    modal:'modal-2',
-    thumbnails:['images/project2.png','images/project2.png','images/project2.png','images/project2.png']
+    live: 'https://balatstar.github.io/',
+    source: 'https://github.com/balatstar/portfolio',
+    modal: 'modal-2',
+    thumbnails: ['images/project2.png', 'images/project2.png', 'images/project2.png', 'images/project2.png'],
   },
   {
-    title:'Project name goes here',
-    image:'images/project3.png',
-    technologies:['HTML/CSS','Ruby on Rails','Javascript'],
-    position:'project-3',
-    description:`<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    title: 'Project name goes here',
+    image: 'images/project3.png',
+    technologies: ['HTML/CSS' ,'Ruby on Rails' ,'Javascript'],
+    position: 'project-3',
+    description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
     <p>Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>`,
-    live:'https://balatstar.github.io/',
-    source:'https://github.com/balatstar/portfolio',
-    modal:'modal-3',
-    thumbnails:['images/project3.png','images/project3.png','images/project3.png','images/project3.png']
+    live: 'https://balatstar.github.io/',
+    source: 'https://github.com/balatstar/portfolio',
+    modal: 'modal-3',
+    thumbnails: ['images/project3.png', 'images/project3.png', 'images/project3.png', 'images/project3.png'],
   },
   {
-    title:'Project name goes here',
-    image:'images/project4.png',
-    technologies:['HTML/CSS','Ruby on Rails','Javascript'],
-    position:'project-4',
-    description:`<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    title: 'Project name goes here',
+    image: 'images/project4.png',
+    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    position: 'project-4',
+    description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
     <p>Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>`,
-    live:'https://balatstar.github.io/',
-    source:'https://github.com/balatstar/portfolio',
-    modal:'modal-4',
-    thumbnails:['images/project4.png','images/project4.png','images/project4.png','images/project4.png']
+    live: 'https://balatstar.github.io/',
+    source: 'https://github.com/balatstar/portfolio',
+    modal: 'modal-4',
+    thumbnails: ['images/project4.png', 'images/project4.png', 'images/project4.png', 'images/project4.png'],
   },
   {
-    title:'Project name goes here',
-    image:'images/project5.png',
-    technologies:['HTML/CSS','Ruby on Rails','Javascript'],
-    position:'project-5',
+    title: 'Project name goes here',
+    image: 'images/project5.png',
+    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    position: 'project-5',
     description:`<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
     <p>Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>`,
-    live:'https://balatstar.github.io/',
-    source:'https://github.com/balatstar/portfolio',
-    modal:'modal-5',
-    thumbnails:['images/project5.png','images/project5.png','images/project5.png','images/project5.png']
+    live: 'https://balatstar.github.io/',
+    source: 'https://github.com/balatstar/portfolio',
+    modal: 'modal-5',
+    thumbnails: ['images/project5.png', 'images/project5.png', 'images/project5.png', 'images/project5.png'],
   },
 
-]
+];
 
 const postContainer = document.querySelector('.projects-content');
 const postContainer2 = document.querySelector('.projects-modal-test');
 
-const postMethods = ()=>{
-cardData.map((postData)=>{
-  const postElement = document.createElement('article');
-  postElement.id = `${postData.position}`;
-  postElement.classList.add('projects-content-item');
-  postElement.innerHTML=`
+const postMethods = () => {
+  cardData.map((postData) => {
+    const postElement = document.createElement('article');
+    postElement.id = `${postData.position}`;
+    postElement.classList.add('projects-content-item');
+    postElement.innerHTML = `
   <div class="projects-content-image"><img src="${postData.image}" alt="Project name" /></div>
             <div class="projects-content-group">
               <div class="projects-content-name"><h3>${postData.title}</h3></div>
@@ -111,13 +111,13 @@ cardData.map((postData)=>{
                 <button class="cta-dark" onclick="modalToggles('${postData.modal}')">See this project <img src="images/ic_arrow_right.svg" alt="See this project" /></button>
               </div>
             </div>
-  `
-  postContainer.appendChild(postElement);
+  `;
+    postContainer.appendChild(postElement);
 
-  const postElement2 = document.createElement('div');
-  postElement2.id = `${postData.modal}`;
-  postElement2.classList.add('projects-modal');
-  postElement2.innerHTML=`
+    const postElement2 = document.createElement('div');
+    postElement2.id = `${postData.modal}`;
+    postElement2.classList.add('projects-modal');
+    postElement2.innerHTML = `
   <div class="projects-modal-content">
               <div class="projects-modal-close"><a id="modalToggleClose" onclick="modalToggles('${postData.modal}')"><img src="images/Union.png" alt="Close" /></a></div>
               <h3 class="projects-modal-title">${postData.title}</h3>
@@ -143,19 +143,19 @@ cardData.map((postData)=>{
                 <a href="${postData.source}" class="cta-light" target="_blank">See source <img src="images/ic_github_dark.png" /></a>
               </div>
             </div>
-  `
-  postContainer2.appendChild(postElement2)
-})
-}
+  `;
+    postContainer2.appendChild(postElement2);
+  });
+};
 postMethods();
 
 const modalToggleClose = document.getElementById('modalToggleClose');
-var popout = '';
+let popout = '';
 
 function modalToggles(popout) {
   const modal = document.getElementById(popout);
   modal.classList.toggle('modal-on');
-  window.scrollTo(0,0)
+  window.scrollTo(0, 0);
 }
 
 modalToggleClose.addEventListener('click', modalToggles);
