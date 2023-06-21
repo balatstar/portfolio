@@ -151,7 +151,6 @@ postMethods();
 
 const modalToggleClose = document.getElementById('modalToggleClose');
 const popout = '';
-return popout;
 
 function modalToggles(popout) {
   const modal = document.getElementById(popout);
@@ -160,3 +159,4 @@ function modalToggles(popout) {
 }
 
 modalToggleClose.addEventListener('click', modalToggles);
+return popout;
