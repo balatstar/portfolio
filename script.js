@@ -54,7 +54,7 @@ const cardData = [
   {
     title: 'Project name goes here',
     image: 'images/project3.png',
-    technologies: ['HTML/CSS' ,'Ruby on Rails' ,'Javascript'],
+    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     position: 'project-3',
     description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
     <p>Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>`,
@@ -80,7 +80,7 @@ const cardData = [
     image: 'images/project5.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     position: 'project-5',
-    description:`<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+    description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
     <p>Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>`,
     live: 'https://balatstar.github.io/',
     source: 'https://github.com/balatstar/portfolio',
@@ -150,7 +150,8 @@ const postMethods = () => {
 postMethods();
 
 const modalToggleClose = document.getElementById('modalToggleClose');
-let popout = '';
+const popout = '';
+return popout;
 
 function modalToggles(popout) {
   const modal = document.getElementById(popout);
