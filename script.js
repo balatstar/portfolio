@@ -159,4 +159,4 @@ function modalToggles(popout) {
 }
 
 modalToggleClose.addEventListener('click', modalToggles);
-return popout;
+console.log(popout);
