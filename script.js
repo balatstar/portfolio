@@ -1,3 +1,4 @@
+// Mobile menu toggle
 const navToggle = document.getElementById('navtoggle');
 const navToggleClose = document.getElementById('navToggleClose');
 const navLinks = document.getElementsByClassName('nav-link');
@@ -14,6 +15,7 @@ for (let i = 0; i < navLinks.length; i += 1) {
   navLinks[i].addEventListener('click', navToggles);
 }
 
+// Projects section cards and pop-up
 const cardData = [
   {
     title: 'Project name goes here',
@@ -157,3 +159,15 @@ function modalToggles(popout) {
 }
 
 modalToggleClose.addEventListener('click', modalToggles);
+
+// Form validation
+const form = document.querySelector('#contact-form');
+const email = document.getElementById('email');
+const error = document.querySelector('small');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (email.value.toLowerCase() !== email.value) {
+    error.innerText = 'Please use all lowercase for email address';
+  } else { form.submit(); }
+});

@@ -537,6 +537,14 @@ ul.projects-modal-tags {
   color: #1a2236;
 }
 
+.contact-form small {
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  color: #e2505c;
+  text-align: center;
+}
+
 footer {
   background-color: #1a2236;
 }
