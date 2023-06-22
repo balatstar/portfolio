@@ -167,8 +167,7 @@ const error = document.querySelector('small');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  
   if (email.value.toLowerCase() !== email.value) {
     error.innerText = 'Please use all lowercase for email address';
-  } else { form.submit() };
+  } else { form.submit(); }
 });
