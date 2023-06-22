@@ -59,8 +59,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - Fully responsive layout
 - Contact form
 - Showcase
@@ -119,13 +117,11 @@ To follow
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Joyce Cruz**
 
-- GitHub: [@githubhandle](https://github.com/balatstar)
-- Twitter: [@twitterhandle](https://twitter.com/balatstar)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/joyce-ann-cruz-668a41a7
+- GitHub: [@balatstar](https://github.com/balatstar)
+- Twitter: [@balatstar](https://twitter.com/balatstar)
+- LinkedIn: [Joyce](https://linkedin.com/in/joyce-ann-cruz-668a41a7
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
