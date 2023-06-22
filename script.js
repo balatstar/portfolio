@@ -168,7 +168,6 @@ form.addEventListener('submit', function (event) {
 
  // validate the form
  if (email.value.toLowerCase() !== email.value) {
-    event.preventDefault();
     error.innerText = 'Please use all lowercase for email address';
   } else {form.submit()}
 });
