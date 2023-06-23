@@ -149,7 +149,6 @@ const postMethods = () => {
     postContainer2.appendChild(postElement2);
   });
 };
-postMethods();
 
 const modalToggleClose = document.getElementById('modalToggleClose');
 
@@ -162,7 +161,7 @@ modalToggleClose.addEventListener('click', modalToggles);
 
 // Form validation
 const form = document.querySelector('#contact-form');
-const email = document.getElementById('email');
+const email = document.querySelector('#email');
 const error = document.querySelector('small');
 
 form.addEventListener('submit', (event) => {
