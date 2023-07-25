@@ -121,7 +121,7 @@ To follow
 
 - GitHub: [@balatstar](https://github.com/balatstar)
 - Twitter: [@balatstar](https://twitter.com/balatstar)
-- LinkedIn: [Joyce](https://linkedin.com/in/joyce-ann-cruz-668a41a7)
+- LinkedIn: [Joyce Cruz](https://linkedin.com/in/joyce-ann-cruz-668a41a7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
