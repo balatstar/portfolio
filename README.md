@@ -30,7 +30,7 @@
 
 # 📖 Joyce's Portfolio <a name="about-project"></a>
 
-**Joyce's Portfolio** is a showcase of my software coding portfolio and experience in the field.
+This is a showcase of my software coding portfolio and experience in the field. It is the first project built for the Microverse program and makes use of HTML/CSS and JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
